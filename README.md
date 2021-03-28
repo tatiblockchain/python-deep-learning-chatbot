@@ -27,3 +27,6 @@ Run the APP to create a Flask front end on port 8888 (or any port the app is poi
 ```
 python app.py
 ```
+
+# Watch the full Tutorial on Youtube
+[Create a Deep Learning Machine Learning Chatbot with Python and Flask](https://www.youtube.com/watch?v=8HifpykuTI4)
