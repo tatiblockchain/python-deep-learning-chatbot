@@ -1,0 +1,57 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Karabo", "My name is Karabo", "You can call me KB for short", "I am Karabo, my friends call me KB", "Karabo is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about South Africa", "I can give you interesting facts about South Africa"]
+      },
+     {"tag": "south_africa_info",
+      "patterns": ["South Africa", "What can you tell me about SA", "SA", "Tell me about SA", "What about SA", "What do you know about SA", "Tell me more about SA", "What can you tell me about South Africa", "Tell me about South Africa", "What about South Africa", "What do you know about South Africa", "Tell me more about South Africa"],
+      "responses": ["South Africa is the southern most country in Africa, it has a population of more than 59million people and covers an area of 1221 037m2. South Africa has 11 official languages. The currency used in ZAR our South African Rand which trades at about 15ZAR per 1USD."]
+      },
+      {"tag": "south_africa_facts",
+       "patterns": ["South Africa Facts", "SA Facts", "Give me some facts about SA", "Give me some facts about South Africa", "SA Facts", "SA interesting facts", "South Africa facts", "South Africa interesting facts", "Tell me something interesting"],
+       "responses": [
+         "South Africa is now the only country in the world to have hosted the Soccer, Cricket and Rugby World Cup!",
+         "Table Mountain in Cape Town is believed to be one of the oldest mountains in the world and one of the planet’s 12 main energy centres, radiating magnetic, electric or spiritual energy.",
+         "The Cape Floral Kingdom is one of the world’s six floral kingdoms – and the only one which is wholly contained within a single country.",
+         "Some countries have deserts; some have subtropical forests, right? South Africa has: deserts, wetlands, grasslands, bush, subtropical forests, mountains and escarpments.",
+         "South Africa’s drinking water is rated 3rd best in the world for being safe and ready to drink.",
+         "Water is not all there is to drink in this thirsty country! South Africa’s Cape Winelands have around 560 wineries and 4 400 primary producers. Included in the Cape Winelands region is Route 62, considered the longest wine route in the world. That alone is good reason to visit South Africa if you haven’t yet been!",
+         "What about beer? South African brewery SABMiller ranks – by volume – as the largest brewing company in the world. Saffers love their beer…but the real reason the brewery is so big? SABMiller also supplies up to 50% of China’s beer.",
+         "South Africa is the only country in the entire world that has voluntarily abandoned its nuclear weapons programme.",
+         "The world’s largest themed resort hotel in the world – The Palace of the Lost City – is found in South Africa. Surrounding the Palace is a 25 hectare manmade botanical jungle with almost 2 million plants, trees and shrubs.",
+         "South Africa is extremely rich in mining and minerals and considered the world’s leader with nearly 90% of all the platinum metals on earth and around 41% of all the world’s Gold!",
+         "South Africa is home to the oldest meteor scar in the world – the Vredefort Dome in a town called Parys. The site is a UNESCO World Heritage Site.",
+         "The South African Rovos Rail is considered the most luxurious train in the world.",
+         "South Africa is home to the highest commercial bungi jump in the world at 710 feet.",
+         "General Motors South Africa is the only place outside of the USA to build the Hummer H3!",
+         "Despite the country’s status as a democratic republic, the Province of KwaZulu-Natal has a monarchy, specially provided for by the Constitution. Goodwill Zwelithini kaBhekuzulu is the King of the Zulu Nation, has 27 kids and 6 wives and lives, literally, like a King!",
+         "There are more than 2000 shipwrecks off the South African coast, most dating back at least 500 years.",
+         "The oldest remains of modern humans were found in South Africa and are well over 160,000 years old.",
+         "The Karoo region in the Western Cape is home to some of the best fossils of early dinosaurs. In fact, it is estimated that some 80% of the mammalian fossils found to date were found in the Karoo.",
+         "SA has three capital cities: Pretoria is the Executive Capital, Cape Town the Legislative Capital and Bloemfontein the judicial Capital.",
+         "Can you think of any other place in the world where two Nobel Peace Prize winners lived on the same street? Both Nelson Mandela and Archbishop Desmond Tutu had houses on Vilakazi Street in Soweto"
+       ]
+      }
+  ]
+}
