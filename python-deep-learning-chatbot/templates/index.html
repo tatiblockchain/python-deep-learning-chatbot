@@ -47,6 +47,12 @@
 
 
       jQuery(document).ready(function() {
+        
+        $(document).bind('keypress', function(e) {
+            if(e.keyCode==13){
+                 $('#submit-button').trigger('click');
+             }
+        });
 
         $("#submit-button").click(function(e) {
           e.preventDefault();
